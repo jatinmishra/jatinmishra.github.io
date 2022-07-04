@@ -4,7 +4,15 @@
 
 <h1>The img element</h1>
 
-<img src="https://effigis.com/wp-content/uploads/2015/02/DigitalGlobe_WorldView2_50cm_8bit_Pansharpened_RGB_DRA_Rome_Italy_2009DEC10_8bits_sub_r_1.jpg">
+<img id="imageid">
 
-</body>
+  
+  <script>
+  setTimeout(function() {
+  document.getElementById("imageid").src="https://effigis.com/wp-content/uploads/2015/02/DigitalGlobe_WorldView2_50cm_8bit_Pansharpened_RGB_DRA_Rome_Italy_2009DEC10_8bits_sub_r_1.jpg";
+  }, 5000);
+  
+  </script>
+  </body>
+  
 </html>

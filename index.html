@@ -9,7 +9,12 @@
   
   <script>
   setTimeout(function() {
-  document.getElementById("imageid").src="1MB.jpg";
+    for (var i = 0 ; i < 14; i++) {
+      var img = document.createElement('img');
+            img.src = 'test images/' + i + '.jpg';
+            document.getElementById('body').appendChild(img);
+    }
+    
   }, 5000);
   
   </script>
